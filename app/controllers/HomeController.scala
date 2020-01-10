@@ -22,8 +22,8 @@ class HomeController @Inject()(cc: ControllerComponents) (implicit assetsFinder:
     Ok(views.html.index("Your new application is ready."))
   }
 
-  // def anotherPage = Action {
-  //   Ok(views.html.anotherPage("Your new application's another page is ready."))
-  // }
+  def anotherPage = Action {
+    Ok(views.html.anotherPage("Your new application's another page is ready."))
+  }
 
 }
